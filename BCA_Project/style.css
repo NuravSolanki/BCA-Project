@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 6em 2em 2em;
+    text-align: center;
+}
+
+.hero {
+    padding: 5em 0;
+    background: url('assets/Coding.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.about, .contact {
+    margin: 2em 0;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2em auto;
+    background: white;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.75em;
+    margin-top: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
